@@ -8,5 +8,5 @@
 10.times do
   user = User.create(
   	name: FFaker::Name.name, 
-  	email: Faker::Internet.email)
+  	email: FFaker::Internet.email)
 end
