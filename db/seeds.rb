@@ -5,6 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-100.times do
-  Task.create(name: FFaker::Name.name, age::number)
+10.times do
+  user = User.create(
+  	name: FFaker::Name.name, 
+  	email: Faker::Internet.email)
 end

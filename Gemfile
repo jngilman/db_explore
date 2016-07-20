@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-#require 'ffaker'
+require 'faker'
 
-#FFaker::Name.name       #=> "Christophe Bartell"
-#FFaker::Internet.email  #=> "kirsten.greenholt@corkeryfisher.info"
+# FFaker::Name.name       #=> "Christophe Bartell"
+# FFaker::Internet.email  #=> "kirsten.greenholt@corkeryfisher.info"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
